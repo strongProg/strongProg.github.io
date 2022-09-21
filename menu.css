@@ -1,0 +1,22 @@
+
+.debut-col { 
+
+   float: left; width: 400px;
+}   
+
+.left-col { 
+
+    float: left; width: 200px;
+ }   
+  
+ .mid-col { 
+    
+    float: left; width: 200px;
+ }   
+  
+ .right-col { 
+    
+    float: left; width: 200px; 
+
+}   
+  
