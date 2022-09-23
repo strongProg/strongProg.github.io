@@ -1,0 +1,87 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(142, 133, 152);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    margin-top: 30px;
+    background-color: bisque;
+    padding: 40px 60;
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+form h1{
+    color: antiquewhite;
+    text-align: center;
+}
+
+form .social-media{
+    margin-top: -1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid rgb(87, 157, 123);
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form p.choose-email{
+    text-align: center;
+}
+
+form inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type = "email"], input[type = "password"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(164, 196, 185);
+    margin-bottom: 15px;
+    outline: none;
+}
+
+form p.inscription span {
+    color: rgb(155, 104, 104);
+}
+
+form button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: bisque;
+    background-color: rgb(197, 175, 147);
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
