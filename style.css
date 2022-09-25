@@ -15,7 +15,7 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid #0d4b04;
+    border-bottom: 10px solid #9591df;
 }
 
 nav h1{
@@ -86,8 +86,8 @@ header h4{
 }
 
 .main .content .card .droite img{
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     margin-top: 5px;
 
 }
