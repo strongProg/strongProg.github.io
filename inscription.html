@@ -5,23 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
+    <link rel = "stylesheet" type="text/css" href ="style2.css">
 </head>
 <body>
-    <h1>page inscription</h1>
-    <div class = "frame" > 
-        <div style = "text-align: left;font-size: 50px">Richard Candle</div>
-        <div style = "text-align: center;font-size: 50px">Artisanat</div>  
-        <img src="https://th.bing.com/th/id/R.48b666d6179cbf4cdd86b80bac7f0df5?rik=xULJFzGntGDtew&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f01%2fnature-wallpapers-38.jpg&ehk=dUtU7hvI%2bIv1ZAogg0%2b%2fznLW5KEYTsPob9LlywpnX1Q%3d&risl=&pid=ImgRaw&r=0"
-        alt="Nature"
-        style="width: 1200px; height:300px">
-            
-        </div>
     
-        <a href="acceuil.html"> Acceuil </a>
-        <a href="inscription.html"> Inscription </a>
-        <a href="connecter.html"> Connecter </a>
-        <a href="vente.html"> Vente</a>
-    
+    <form>
+        <h1>Inscription</h1>
+        <fieldset>
+            <legend>Formulaire d'inscription</legend>
+            <div class="inputs">
+                <input type="name" placeholder="Nom"><br>
+                <input type="name" placeholder="Prénom"><br>
+                <input type="text" placeholder="Adresse"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="password" placeholder="Mot de passe"><br>
+                <fieldset>
+                    <legend>Genre</legend>
+                    <div class="inputs">
+                        <input type="radio" id="masculin" name="drone" value="masculin"
+                             checked>
+                        <label for="masculin">Masculin</label>
+                        <input type="radio" id="feminin" name="drone" value="feminin">
+                        <label for="feminin">Féminin</label>
+                    </div>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Domaines d'activités</legend>
+                
+                    <div class="inputs">
+                      <input type="radio" id="informatique" name="drone" value="informatique"
+                             checked>
+                      <label for="informatique">Informatique</label>
+                    
+                      <input type="radio" id="enseignement" name="drone" value="enseignement">
+                      <label for="enseignement">Enseignement</label>
+                
+                      <input type="radio" id="affaires" name="drone" value="affaires">
+                      <label for="affaires">Affaires</label>
+                    </div>
+                </fieldset><br>
+                <div class="inscription">
+                    <div align = "center">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
 </body>
 
 </html>
