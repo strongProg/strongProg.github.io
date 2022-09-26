@@ -1,28 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vente</title>
+    <link rel = "stylesheet" type="text/css" href ="style3.css">
+
 </head>
 <body>
 
-    <h1>Page de vente</h1>
-    <div class = "frame" > 
-        <div style = "text-align: left;font-size: 50px">Richard Candle</div>
-        <div style = "text-align: center;font-size: 50px">Artisanat</div>  
-        <img src="https://th.bing.com/th/id/R.48b666d6179cbf4cdd86b80bac7f0df5?rik=xULJFzGntGDtew&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f01%2fnature-wallpapers-38.jpg&ehk=dUtU7hvI%2bIv1ZAogg0%2b%2fznLW5KEYTsPob9LlywpnX1Q%3d&risl=&pid=ImgRaw&r=0"
-        alt="Nature"
-        style="width: 1200px; height:300px">
-            
-        </div>
-    
-        <a href="acceuil.html"> Acceuil </a>
-        <a href="inscription.html"> Inscription </a>
-        <a href="connecter.html"> Connecter </a>
-        <a href="vente.html"> Vente</a>
-    
+    <form>
+        <h1>Page de vente</h1>
+        <section class="main" id="Vente">
+            <div class ="content">
+                <div class ="card">
+                <div class="gauche">
+                    <h1>Tournesol</h1>
+                    <p>Savon bio, fait de cacao, laissant la peau lisse et doux,les clients adorent l'odeur d'arôme de cacao.</p>
+                </div>
 
+                <div class="droite">
+                    <img src="images/savon-tournesol.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class ="card">
+                <div class="gauche">
+                    <h1>Fresh</h1>
+                    <p>Savon naturel, fait de chanvre, utilisé pour ses propriétés anxiolytiques, nos clients l'adorent</p>
+                </div>
+
+                <div class="droite">
+                    <img src="images/OIP.jpg" alt="">
+                </div>
+            </div>
+
+            <div class ="card">
+                <div class="gauche">
+                    <h1>Ayurvedique</h1>
+                    <p>Savon végétal, fait de concombre et de citron, rajeunissant les cellules de la peau, très demandé par la clientèle.</p>
+                </div>
+    
+                <div class="droite">
+                    <img src="images/R.jpg" alt="">
+                </div>
+            </div>
+
+            <div class ="card">
+                <div class="gauche">
+                    <h1>Fenugrec-Neem</h1>
+                    <p>Savon bio, irreprochable , aromathique apaisant et anti-age laissant.</p>
+                </div>
+        
+                <div class="droite">
+                    <img src="images/savon-vegetal.jpg" alt="">
+                </div>
+            </div>   
+
+            <div class ="card">
+                <div class="gauche">
+                    <h1>vetyver</h1>
+                    <p>Savon naturel, fait de vetyver, miel et de l'argile jaune, laissant la peau lisse et doux,les clients adorent l'odeur d'arôme de cacao.</p>
+                </div>
+            
+                <div class="droite">
+                    <img src="images/savon-vetyver.jpg" alt="">
+                </div>
+            </div>    
+
+            <div class ="card">
+                 <div class="gauche">
+                    <h1>Main-verte</h1>
+                    <p>Savon naturel, sans huile de palme, exfoliant servant à éliminer les cellules mortes.</p>
+                </div>
+                
+                <div class="droite">
+                    <img src="images/main-verte.jpg" alt="">
+                </div>
+            </div>    
+    </div>                                
+</section>
+    
+        <br><br>
+        <h2></h2>
+        <labe1>Veuillez choisir un ou plusieurs Produits :
+            <select name="Produits" multiple size="6">
+              <optgroup label="Savons de beautés">
+                <option value="Main-verte">main-verte</option>
+                <option value="Fresh">Fresh</option>
+                <option value="Tournesol">Tournesol</option>
+                <option value="Ayurvedique">Ayurvedique</option>
+                <option value="Fenugrec-Neem">Fenugrec-Neem</option>
+                <option value="Vetyver">Vetyver</option>
+              </optgroup>
+            </select>
+            <br><br>
+            <div class="inputs">
+                <fieldset>
+                    <legend>Mode de paiement</legend>
+                    <div class="inputs">
+                        <input type="radio" id="Visa" name="drone" value="Visa"
+                             checked>
+                        <label for="card">Visa</label>
+                        <input type="radio" id="MasterCard" name="drone" value="MasterCard">
+                        <label for="MasterCard">MasterCard</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="number" placeholder="Numero de carte">
+                    </div>
+                </fieldset>
+                <br><br>
+                <div1 align="center">
+                    <input type="submit" value ="Achat">
+                </div1>
+              </labe1>
+            </div>
+    </form>
+            
+        
+      
 </body>
 </html>

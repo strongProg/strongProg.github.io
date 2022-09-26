@@ -1,4 +1,4 @@
-/* style pour les formatages des formulaires connecter, inscription et vente */
+/* style pour les formatages des formulaires connecter, inscription */
 body {
 
     display: flex;
@@ -15,6 +15,7 @@ form {
     border-radius: 10px;
     min-width: 200px;
 }
+
 
 form h1{
     color: rgb(198, 95, 11);
