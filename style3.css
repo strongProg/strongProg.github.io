@@ -83,4 +83,8 @@ form div1 {
     cursor: pointer;
 }
 
-
+nav h1{
+    color: #717171;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    text-align: left;
