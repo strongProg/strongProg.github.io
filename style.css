@@ -1,6 +1,10 @@
 /* style utiliser pour formater l'entête de la page d'acceuil
  et détermine la position du menu déroulant et celle des produits */
 
+/*Ces liens URL sont tirés de la chaines youtube Frenchcoder - web Developpement, 
+titre: "creer un site Vitrine complet étape par étape en HTML", ils stockent les logos des media sociaux
+tels que youtube, twitwr, facebook, Google. */
+
 @import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
  
